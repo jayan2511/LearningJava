@@ -22,6 +22,20 @@ public class CWH_07_PracSet {
         float perc = (totalMarks/300)*100;
         System.out.println("Total Percentage is: " + perc + "%");
 
+//        Question 3: Write a Java program to get a user to enter his/her name and and greets them with hello <name>, have a good day text
+        System.out.println("Enter your name");
+        String name = sc.next();
+        System.out.println("Hello "+name+"! Have a good day!");
 
+//        Question 4: Write a java program to convert kilometers to miles
+        System.out.println("Enter no. of kilometers to convert");
+        float km = sc.nextFloat();
+        double miles =  km*0.621;
+        System.out.println(miles);
+
+//        Question 5: Write a java program to check if number entered by a user is integer or not
+        System.out.println("Enter a number to check if integer");
+        boolean x = sc.hasNextInt();
+        System.out.println(x);
     }
 }
