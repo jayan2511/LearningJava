@@ -19,5 +19,6 @@ public class CWH_06_CBSEPercProblem {
         float perc = (sum/500)*100;
         System.out.println("Final Percentage is: ");
         System.out.println(perc + "%");
+
     }
 }
