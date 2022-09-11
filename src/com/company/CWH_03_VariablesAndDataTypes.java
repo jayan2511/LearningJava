@@ -1,7 +1,7 @@
 package com.company;
 
 //public class com.company.Main creates the main class which holds the main method
-public class CWH_010203_VariablesAndDataTypes {
+public class CWH_03_VariablesAndDataTypes {
     // public static void main defines the main method in java as a void function
     public static void main(String[] args) {
 
