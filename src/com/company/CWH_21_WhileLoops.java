@@ -27,6 +27,6 @@ public class CWH_21_WhileLoops {
             System.out.println("I am an infinite while loop");
         }
 
-        
+
     }
 }
